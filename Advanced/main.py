@@ -198,6 +198,11 @@ async def main():
         screen.fill(WHITE)
         menu_mouse_position = pygame.mouse.get_pos()
 
+        font = pygame.font.SysFont(None, 30)
+        text = font.render("SOLVE EACH PUZZLE!", True, BLACK)
+        text_rect = text.get_rect(center=(400, 150))
+        screen.blit(text, text_rect)
+        
         # Create buttons
         puzzle_A = Button(400, 250, "Puzzle A")
         puzzle_B = Button(400, 350, "Puzzle B")
