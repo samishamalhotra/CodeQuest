@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intermediate Lesson</title>
+        <link rel="stylesheet" href="Lessons.css">
+        <link rel="stylesheet" href="WelcomeStyles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="nav-left">
+                    <img src="logoconu.png" alt="CodeQuest Logo" class="logo-image">
+                    <span class="name">CodeQuest</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="Welcome.html">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <svg class="login-logo" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="white"/>
+                        </svg>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Welcome to your Intermediate Level Lesson</h2>
+            <p class="intro">Here's a list of what you need to know before playing your game:</p>
+            <ol>
+                <li class="subject">What's a tuple?</li>
+                <p>A tuple is a special way to group several pieces of information together. You can think of it like a list of items, <br> but the difference is that once 
+                    you create a tuple, you cannot change it (this is called "immutable"). <br>
+                    To create a tuple in Python: <br>
+                    <div class="examples"><pre>my_tuple = (1,2,3,4)</pre></div>
+                    
+                    This creates a tuple with three number !!
+                    <p class="warning">Remember -> once you make a tuple, you can't add / remove items from it</p>
+                </p>
+                <li class="subject">Strings into Numbers</li>
+                <p>What if you have a string like "123" and you want to treat it like a number? <br>
+                    No worries! Python lets you convert strings into numbers. To do this, we use the int() function:</p> <br>
+                    <div class="examples"> 
+                        <pre>number_string  "123"
+number = int(number_string)
+print(number)
+                        </pre>
+                    </div>
+                    
+                <p>This will successfully turn the string "123" into the number 123 so that you can us it in math</p>
+
+                <li class="subject">What's the length of a list?</li>
+                <p>Have you ever wanted to know how many items are in a list? Python has a simple way to do that with the len() function. <br>
+                     It counts how many elements are in a list or other collection.</p>
+                     <div class="examples">
+                        <pre>my_list = [1,2,3]
+print(len(my_list))
+                        </pre>
+                     </div>
+              
+                <p>This will print 3 which is the length of my_list</p>
+
+                <li class="subject">Creating a list</li>
+                <p>A list is one of the most useful tools in Python. It’s a collection that can hold many items like numbers, words, or even other lists!<br>
+                    To create a list, we use square brackets []. Here’s how:</p>
+                    <div class="examples"><pre>my_list = [1,2,3,4] </pre></div>
+
+                <p>This creates a list with four numbers. Lists can be changed, so you can add, remove, or change items as you go.</p>
+
+                <li class="subject">Creating a set</li>
+                <p>A set is another way to store multiple items, but with a twist! Unlike lists, sets don’t allow duplicates, so you can’t have the same item more than once. You create a set with set(). <br> Here’s how:</p>
+                <div class="examples"><pre>my_set = set([1,2,3])</pre></div>
+                
+                <p>This will create a set with the numbers 1, 2, and 3. Sets are great when you don’t want any duplicate items!</p>
+            </ol>
+
+            <button class="knowledge-test">Test Your Knowledge</button>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Service Management System. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

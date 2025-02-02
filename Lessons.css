@@ -1,0 +1,60 @@
+*{
+    font-weight: bold;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+.intro{
+    color: #13bbad;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+ol{
+    padding-left: 20px;
+}
+
+.subject{
+    padding-bottom: 10px;
+    color: #13bbad;
+    font-size: 20px;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.examples{
+    font-style: italic;
+    color: #ff47b4;
+    padding: 15px;
+}
+
+.warning{
+    text-decoration: underline;
+    color: red;
+}
+
+.knowledge-test {
+    display: block; /* Ensures it takes up its own line */
+    margin: 40px auto; /* Centers the button */
+    padding: 15px 40px; /* Increases size */
+    font-size: 1.8em; /* Makes text larger */
+    font-weight: bold;
+    background-color: #fffcb7; /* Same color as Intermediate div */
+    color: #333; /* Dark text for contrast */
+    border: none; /* Removes default border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Changes cursor to pointer */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.knowledge-test:hover {
+    background-color: #ffeb90; /* Lighter yellow on hover */
+    transform: scale(1.05); /* Slightly enlarges button */
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Darker shadow */
+}
