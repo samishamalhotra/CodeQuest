@@ -1,0 +1,40 @@
+/* Contact container to center everything */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;  /* Ensures responsiveness */
+    justify-content: center;  /* Centers content */
+    gap: 40px; /* Adds spacing between cards */
+    margin-top: 30px;
+}
+
+/* Each contact card */
+.contact-card {
+    display: flex;
+    flex-direction: column; /* Stack image and text */
+    align-items: center;
+    text-align: center;
+    width: 250px; /* Adjusts width */
+}
+
+/* Make images circular */
+.contact-pic {
+    width: 180px;  /* Adjust size */
+    height: 180px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures images are properly cropped */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
+
+/* Contact name styling */
+.contact-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Contact email styling */
+.contact-email {
+    font-size: 1em;
+    color: #555;
+}
