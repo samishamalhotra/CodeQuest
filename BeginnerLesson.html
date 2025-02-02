@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Intermediate Lesson</title>
+        <title>Beginner Lesson</title>
         <link rel="stylesheet" href="Lessons.css">
         <link rel="stylesheet" href="WelcomeStyles.css">
     </head>
@@ -28,7 +28,7 @@
         </header>
 
         <main>
-            <h2>Welcome to your Intermediate Level Lesson</h2>
+            <h2>Welcome to your Beginner Level Lesson</h2>
             <p class="intro">Here's a list of what you need to know before playing your game:</p>
 
             <p>Imagine you have a toy room filled with different things. Each thing represents a different data type in Python!<br><br></p>
@@ -61,9 +61,26 @@
                 <li class="subject">Lists</li>
                 <p>A collection of items, which can change.<br> Here’s an example:</p>
                 <div class="examples"><pre>toys = ["teddy bear", "car", "ball"]<br>toys.append("robot")  # You can add more toys!</pre></div>
-                
                 <p>You can take toys out or put more in!<br>It can also be compared to a basket collecting many different items!
-                </p>
+                </p><br>
+
+                <li class="subject">Sets</li>
+                <p>A collection of unique things.<br>Here's an example:</p>
+                    <div class="examples"><pre>colors = {"red", "blue", "green", "red"}  # No duplicate "red"</pre></div>
+                <p>If you have two red marbles, it only keeps one! Meaning it automatically deletes one of the 2 red marbles:</p>
+                <div class="examples"><pre>colors = {"red", "blue", "green"} # Duplicate "red" has been deleted</pre></div>
+                <p class="warning">Remember -> a Set cannot contain any duplicates!</p><br>
+
+                <li class="subject">Strings (str)</li>
+                <p>A bunch of letters or words.<br>Here's an example:</p>
+                    <div class="examples"><pre>name = "Alice"<br>greeting = "Hello, world!"</pre></div>
+                <p>Like a book where you write words and sentences!</p><br>
+
+                <li class="subject">Tuples</li>
+                <p>A collection of items, but cannot change. Every item in the collection has to be of the same data type.<br>Here's an example:</p>
+                    <div class="examples"><pre>colors = ("red", "blue", "green")</pre></div>
+                <p>It is not allowed to have, for example, a String and an Integer in the same Tuple.</p>
+                <p class="warning">Remember -> If the collection is a Tuple, it can only contain a list of one kind of data type.</p>
             </ol>
 
             <button class="knowledge-test-beginner">Test Your Knowledge</button>
